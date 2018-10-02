@@ -51,6 +51,7 @@ ul {
     font-size: 16px;
 }
 
+/* Create gap in the nav bar */
 .login,
 .contact,
 .cart {
@@ -128,7 +129,6 @@ h2 {
     position: relative;
     top: 185px;
     left: 40px;
-
 }
 
 /* Floor Pouf */
@@ -153,11 +153,11 @@ h2 {
 }
 
 /* Buttons */
-.cushionbutton {
+.couchbutton {
     background: lightgrey;
     opacity: 0.75;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
@@ -173,7 +173,7 @@ h2 {
     transition-duration: 0.4s;
 }
 
-.cushionbutton:hover {
+.couchbutton:hover {
     background-color: indianred;
     color: black;
 }
@@ -181,8 +181,8 @@ h2 {
 .floorbutton {
     background: lightgrey;
     opacity: 0.75;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     top: 200px;
     left: 400px;
     border-radius: 50%;
@@ -208,8 +208,8 @@ h2 {
 .bedbutton {
     background: lightgrey;
     opacity: 0.75;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
@@ -233,8 +233,8 @@ h2 {
 .roundbutton {
     background: lightgrey;
     opacity: 0.75;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
@@ -253,4 +253,164 @@ h2 {
 .roundbutton:hover {
     background-color: indianred;
     color: black;
+}
+
+/* Pillow Product Detail Page */
+
+.couchtitle {
+    position: fixed;
+    top: 90px;
+    left: 190px;
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 50px;
+}
+
+.pillow {
+    position: relative;
+    top: 160px;
+    left: 100px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Size Picker */
+.sizepick {
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 25px;
+    float: left;
+    position: relative;
+    top: -275px;
+    left: 740px;
+}
+
+.sizetitle {
+    position: relative;
+    top: -275px;
+    left: 325px;
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 25px;
+}
+
+/* Color Picker */
+
+.color {
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 25px;
+}
+
+.colortitle {
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+
+.colorlist {
+    position: relative;
+    top: -450px;
+    left: 800px;
+    margin: 25px 0;
+}
+
+.afterschool {
+    background-color: deeppink;
+    position: relative;
+    top: -225px;
+    left: 457px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.morning {
+    background-color: yellow;
+    position: relative;
+    top: -205px;
+    left: 740px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.cozy {
+    background-color: darkblue;
+    position: relative;
+    top: -185px;
+    left: 740px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.rainy {
+    background-color: lightcyan;
+    position: relative;
+    top: -165px;
+    left: 740px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* Dropdown button */
+
+.dropdown {
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 25px;
+}
+
+.filltitle {
+    position: relative;
+    top: -475px;
+    left: 600px;
+}
+
+.dropbtn {
+    background-color: lightgrey;
+    color: black;
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    font-family: "Bodoni 72 Smallcaps";
+    position: relative;
+    top: -525px;
+    left: 725px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    top: -525px;
+    left: 725px;
+    background-color: lightgrey;
+    mid-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: indianred;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkgrey;
 }
