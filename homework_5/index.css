@@ -2,8 +2,15 @@
 body {
     background-image: url("https://mbtskoudsalg.com/images/pink-pillow-png.png");
     background-color: #C8BFBF;
-    top: 100px;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 800px;
+    background-size: 900px 1100px;
+    background-position-x: 400px;
+    background-position-y: 70px;
 }
+
+
 
 /* Styling top navigation bar of the home page */
 #topnav {
@@ -11,7 +18,9 @@ body {
     overflow: hidden;
     font-family: "Bodoni 72 Smallcaps";
     position: fixed;
-    width:1000px;
+    width: 1280px;
+    top: 35px;
+    left: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -42,16 +51,16 @@ body {
 }
 
 .fluffstuff {
-    padding-top: 200px;
-    position: relative;
-    top: 65px;
+    position: fixed;
+    top: 265px;
     left: 60px;
-    font-size: 75px;
-    padding-bottom: 5px;
+    font-size: 100px;
 }
-.caption{
-    font-size: 20px;
-    padding-left: 60px;
+.caption {
+    font-size: 30px;
+    position: fixed;
+    top: 385px;
+    left: 60px;
     font-family: "Bodoni 72 Smallcaps";
 }
 
@@ -62,21 +71,22 @@ h2 {
     display: block;
     vertical-align: middle;
 }
+
 .button {
     background: lightgrey;
     opacity: 0.75;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
+    top: 340px;
+    left: 550px;
     border-radius: 50%;
     vertical-align: middle;
-    line-height: 25px;
-    position: relative;
-    top: -142px;
+    line-height: 30px;
+    position: fixed;
     float: center;
-    left: 450px;
     display: block;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Bodoni 72 Smallcaps";
 }
 
