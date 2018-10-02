@@ -61,6 +61,8 @@ ul {
 #topnav a:hover {
     background-color: darkgrey;
     color: indianred;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 /* Add a color to the active/ current link */
@@ -96,7 +98,7 @@ h2 {
     vertical-align: middle;
 }
 
-.button {
+.shopnowbutton {
     background: lightgrey;
     opacity: 0.75;
     width: 150px;
@@ -112,9 +114,143 @@ h2 {
     overflow: hidden;
     font-size: 30px;
     font-family: "Bodoni 72 Smallcaps";
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
+.shopnowbutton:hover {
+    background-color: black;
+    color: white;
+}
 
+/* Cushion */
+.denim {
+    position: relative;
+    top: 185px;
+    left: 40px;
 
+}
 
+/* Floor Pouf */
+.floorpouf {
+    position: relative;
+    top: 185px;
+    left: 65px;
+}
 
+/* Bed Pillow */
+.bed {
+    position: relative;
+    top: 185px;
+    left: 90px;
+}
+
+/* Floor Pouf */
+.round {
+    position: relative;
+    top: 185px;
+    left: 115px;
+}
+
+/* Buttons */
+.cushionbutton {
+    background: lightgrey;
+    opacity: 0.75;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 30px;
+    float: center;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Bodoni 72 Smallcaps";
+    position: fixed;
+    top: 475px;
+    left:100px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.cushionbutton:hover {
+    background-color: indianred;
+    color: black;
+}
+
+.floorbutton {
+    background: lightgrey;
+    opacity: 0.75;
+    width: 75px;
+    height: 75px;
+    top: 200px;
+    left: 400px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 30px;
+    float: center;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Bodoni 72 Smallcaps";
+    position: fixed;
+    top: 475px;
+    left: 425px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.floorbutton:hover {
+    background-color: indianred;
+    color: black;
+}
+
+.bedbutton {
+    background: lightgrey;
+    opacity: 0.75;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 30px;
+    float: center;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Bodoni 72 Smallcaps";
+    position: fixed;
+    top: 475px;
+    left: 765px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.bedbutton:hover {
+    background-color: indianred;
+    color: black;
+}
+
+.roundbutton {
+    background: lightgrey;
+    opacity: 0.75;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 30px;
+    float: center;
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Bodoni 72 Smallcaps";
+    position: fixed;
+    top: 475px;
+    left: 1085px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.roundbutton:hover {
+    background-color: indianred;
+    color: black;
+}
