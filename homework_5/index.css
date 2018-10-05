@@ -462,3 +462,19 @@ p.colortitle {
     background-color: darkgrey;
 }
 
+/* Floor Pouf Product Detail Page */
+
+.pouf {
+    position: fixed;
+    top: 120%;
+    left: 20%;
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 325%;
+}
+
+.pillow {
+    position: fixed;
+    top: 27%;
+    left: 10%;
+}
+
