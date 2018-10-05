@@ -12,28 +12,31 @@ body {
 
 .pinkpillow {
     position: relative;
-    padding-top: 100px;
-    padding-left: 275px;
+    padding-top: 5%;
+    padding-left: 20%;
     top: 0;
     left: 0;
 }
 
 .bluepillow {
     position: absolute;
-    top: 375px;
-    left: 750px;
+    top: 35%;
+    left: 60%;
 }
 
 /* Styling top navigation bar of the home page */
+
 #topnav {
     background-color: lightgray;
+    height: 8%;
     overflow: hidden;
     font-family: "Bodoni 72 Smallcaps";
     position: fixed;
-    width: 1280px;
-    top: 35px;
-    left: 0px;
+    width: 100%;
+    top: 5%;
+    left: 0;
 }
+
 
 /* Style the links inside the navigation bar */
 ul {
@@ -46,7 +49,7 @@ ul {
     float: left;
     color: black;
     text-align: center;
-    padding: 15px 30px;
+    padding: 1.25% 3%;
     text-decoration: none;
     font-size: 16px;
 }
@@ -55,14 +58,12 @@ ul {
 .login,
 .contact,
 .cart {
-    float: right;
 }
 
 /* Change color of links on hover */
 #topnav a:hover {
     background-color: darkgrey;
     color: indianred;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -79,22 +80,22 @@ ul {
 
 .fluffstuff {
     position: fixed;
-    top: 265px;
-    left: 60px;
+    top: 42%;
+    left: 5%;
     font-size: 100px;
 }
 .caption {
     font-size: 30px;
     position: fixed;
-    top: 385px;
-    left: 60px;
+    top: 62%;
+    left: 5%;
     font-family: "Bodoni 72 Smallcaps";
 }
 
 /* Active 'Shop Now' button */
 h2 {
-    top: 20px;
-    left: 5px;
+    top: 5%;
+    left: 2%;
     display: block;
     vertical-align: middle;
 }
@@ -107,15 +108,12 @@ h2 {
     top: 340px;
     left: 550px;
     border-radius: 50%;
-    vertical-align: middle;
-    line-height: 30px;
+    line-height: 130px;
     position: fixed;
-    float: center;
     display: block;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Bodoni 72 Smallcaps";
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -161,7 +159,6 @@ h2 {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
-    float: center;
     display: block;
     overflow: hidden;
     font-size: 15px;
@@ -169,7 +166,6 @@ h2 {
     position: fixed;
     top: 475px;
     left:100px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -188,7 +184,6 @@ h2 {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
-    float: center;
     display: block;
     overflow: hidden;
     font-size: 15px;
@@ -196,7 +191,6 @@ h2 {
     position: fixed;
     top: 475px;
     left: 425px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -213,7 +207,6 @@ h2 {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
-    float: center;
     display: block;
     overflow: hidden;
     font-size: 15px;
@@ -221,7 +214,6 @@ h2 {
     position: fixed;
     top: 475px;
     left: 765px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -238,7 +230,6 @@ h2 {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 30px;
-    float: center;
     display: block;
     overflow: hidden;
     font-size: 15px;
@@ -246,7 +237,6 @@ h2 {
     position: fixed;
     top: 475px;
     left: 1085px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -283,14 +273,14 @@ h2 {
     font-size: 25px;
     float: left;
     position: relative;
-    top: -275px;
+    top: -360px;
     left: 740px;
 }
 
-.sizetitle {
+p.sizetitle {
     position: relative;
-    top: -275px;
-    left: 325px;
+    top: -300px;
+    left: 600px;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 25px;
 }
@@ -302,15 +292,15 @@ h2 {
     font-size: 25px;
 }
 
-.colortitle {
+p.colortitle {
     position: relative;
-    top: -400px;
+    top: -465px;
     left: 600px;
 }
 
 .colorlist {
     position: relative;
-    top: -450px;
+    top: -515px;
     left: 800px;
     margin: 25px 0;
 }
@@ -318,7 +308,7 @@ h2 {
 .afterschool {
     background-color: deeppink;
     position: relative;
-    top: -225px;
+    top: -290px;
     left: 457px;
     width: 35px;
     height: 35px;
@@ -328,7 +318,7 @@ h2 {
 .morning {
     background-color: yellow;
     position: relative;
-    top: -205px;
+    top: -270px;
     left: 740px;
     width: 35px;
     height: 35px;
@@ -338,7 +328,7 @@ h2 {
 .cozy {
     background-color: darkblue;
     position: relative;
-    top: -185px;
+    top: -250px;
     left: 740px;
     width: 35px;
     height: 35px;
@@ -348,7 +338,7 @@ h2 {
 .rainy {
     background-color: lightcyan;
     position: relative;
-    top: -165px;
+    top: -230px;
     left: 740px;
     width: 35px;
     height: 35px;
@@ -364,7 +354,7 @@ h2 {
 
 .filltitle {
     position: relative;
-    top: -475px;
+    top: -525px;
     left: 600px;
 }
 
@@ -377,7 +367,7 @@ h2 {
     border: none;
     font-family: "Bodoni 72 Smallcaps";
     position: relative;
-    top: -525px;
+    top: -580px;
     left: 725px;
 }
 
@@ -389,10 +379,10 @@ h2 {
 .dropdown-content {
     display: none;
     position: relative;
-    top: -525px;
+    top: -580px;
     left: 725px;
     background-color: lightgrey;
-    mid-width: 160px;
+    min-width: 160px;
     z-index: 1;
 }
 
@@ -414,3 +404,4 @@ h2 {
 .dropdown:hover .dropbtn {
     background-color: darkgrey;
 }
+
