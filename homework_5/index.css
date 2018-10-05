@@ -55,9 +55,11 @@ ul {
 }
 
 /* Create gap in the nav bar */
-.login,
-.contact,
 .cart {
+    position: fixed;
+    top: 5%;
+    left: 94%;
+    width: 80%;
 }
 
 /* Change color of links on hover */
