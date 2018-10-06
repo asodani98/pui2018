@@ -5,36 +5,36 @@ body {
 }
 
 .parent {
+    left: 0;
     position: relative;
     top: 0;
-    left: 0;
 }
 
 .pinkpillow {
+    left: 0;
     position: relative;
     padding-top: 5%;
     padding-left: 20%;
     top: 0;
-    left: 0;
 }
 
 .bluepillow {
+    left: 60%;
     position: absolute;
     top: 35%;
-    left: 60%;
 }
 
 /* Styling top navigation bar of the home page */
 
 #topnav {
     background-color: lightgray;
-    height: 8%;
-    overflow: hidden;
     font-family: "Bodoni 72 Smallcaps";
-    position: fixed;
-    width: 100%;
-    top: 5%;
+    height: 8%;
     left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 5%;
+    width: 100%;
 }
 
 
@@ -46,19 +46,19 @@ ul {
 }
 
 #topnav a {
-    float: left;
     color: black;
-    text-align: center;
-    padding: 1.25% 3%;
-    text-decoration: none;
+    float: left;
     font-size: 100%;
+    padding: 1.25% 3%;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* Create gap in the nav bar */
 .cart {
+    left: 94%;
     position: fixed;
     top: 5%;
-    left: 94%;
     width: 80%;
 }
 
@@ -81,42 +81,42 @@ ul {
 }
 
 .fluffstuff {
+    font-size: 600%;
+    left: 5%;
     position: fixed;
     top: 42%;
-    left: 5%;
-    font-size: 600%;
 }
 .caption {
+    font-family: "Bodoni 72 Smallcaps";
     font-size: 175%;
+    left: 5%;
     position: fixed;
     top: 62%;
-    left: 5%;
-    font-family: "Bodoni 72 Smallcaps";
 }
 
 /* Active 'Shop Now' button */
 h2 {
-    top: 5%;
-    left: 2%;
     display: block;
+    left: 2%;
+    top: 5%;
     vertical-align: middle;
 }
 
 .shopnowbutton {
     background: lightgrey;
-    opacity: 0.75;
-    width: 12%;
-    height: 25%;
-    top: 55%;
-    left: 42%;
     border-radius: 50%;
-    line-height: 30%;
-    position: fixed;
     display: block;
-    overflow: hidden;
-    font-size: 140%;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 140%;
+    height: 25%;
+    left: 42%;
+    line-height: 30%;
+    opacity: 0.75;
+    overflow: hidden;
+    position: fixed;
+    top: 55%;
     transition-duration: 0.4s;
+    width: 12%;
 }
 
 .shopnowbutton:hover {
@@ -126,48 +126,49 @@ h2 {
 
 /* Cushion */
 .denim {
+    left: 4.5%;
     position: fixed;
     top: 40%;
-    left: 4.5%;
 }
 
 /* Floor Pouf */
 .floorpouf {
+    left: 22%;
     position: fixed;
     top: 40%;
-    left: 22%;
 }
 
 /* Bed Pillow */
 .bed {
+    left: 55%;
     position: fixed;
     top: 35%;
-    left: 55%;
 }
 
 /* Floor Pouf */
 .round {
+    left: 71.5%;
     position: fixed;
     top: 35%;
-    left: 71.5%;
 }
 
 /* Buttons */
 .couchbutton {
     background: lightgrey;
-    opacity: 0.75;
-    width: 8.5%;
-    height: 17%;
     border-radius: 50%;
-    vertical-align: middle;
-    line-height: 175%;
     display: block;
-    overflow: hidden;
-    font-size: 100%;
+    height: 17%;
+    left: 8%;
+    line-height: 175%;
+    opacity: 0.75;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 100%;
+    overflow: hidden;
     position: fixed;
     top: 78%;
-    left: 8%;
+    vertical-align: middle;
+    width: 8.5%;
+
     transition-duration: 0.4s;
 }
 
@@ -178,20 +179,20 @@ h2 {
 
 .floorbutton {
     background: lightgrey;
-    opacity: 0.75;
-    width: 8.5%;
-    height: 17%;
     border-radius: 50%;
-    vertical-align: middle;
-    line-height: 175%;
     display: block;
-    overflow: hidden;
-    font-size: 100%;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 100%;
+    height: 17%;
+    left: 32%;
+    line-height: 175%;
+    opacity: 0.75;
+    overflow: hidden;
     position: fixed;
     top: 78%;
-    left: 32%;
     transition-duration: 0.4s;
+    vertical-align: middle;
+    width: 8.5%;
 }
 
 .floorbutton:hover {
@@ -201,20 +202,20 @@ h2 {
 
 .bedbutton {
     background: lightgrey;
-    opacity: 0.75;
-    width: 8.5%;
-    height: 17%;
     border-radius: 50%;
-    vertical-align: middle;
-    line-height: 175%;
     display: block;
-    overflow: hidden;
-    font-size: 100%;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 100%;
+    height: 17%;
+    left: 58%;
+    line-height: 175%;
+    opacity: 0.75;
+    overflow: hidden;
     position: fixed;
     top: 78%;
-    left: 58%;
     transition-duration: 0.4s;
+    vertical-align: middle;
+    width: 8.5%;
 }
 
 .bedbutton:hover {
@@ -224,20 +225,20 @@ h2 {
 
 .roundbutton {
     background: lightgrey;
-    opacity: 0.75;
-    width: 8.5%;
-    height: 17%;
     border-radius: 50%;
-    vertical-align: middle;
-    line-height: 175%;
     display: block;
-    overflow: hidden;
-    font-size: 100%;
+    left: 82%;
+    line-height: 175%;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 100%;
+    height: 17%;
+    opacity: 0.75;
+    overflow: hidden;
     position: fixed;
     top: 78%;
-    left: 82%;
     transition-duration: 0.4s;
+    vertical-align: middle;
+    width: 8.5%;
 }
 
 .roundbutton:hover {
@@ -248,17 +249,17 @@ h2 {
 /* Pillow Product Detail Page */
 
 .couchtitle {
-    position: fixed;
-    top: 14%;
     left: 15.5%;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 325%;
+    position: fixed;
+    top: 14%;
 }
 
 .pillow {
+    left: 10%;
     position: fixed;
     top: 27%;
-    left: 10%;
 }
 
 .ul {
@@ -269,56 +270,57 @@ h2 {
 
 /* Size Picker */
 .five {
+    float: left;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 150%;
-    float: left;
+    left: 67%;
     position: fixed;
     top: 26%;
-    left: 67%;
 }
 
 .six {
+    float: left;
+    left: 71%;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 150%;
-    float: left;
     position: fixed;
     top: 26%;
-    left: 71%;
 }
 
 .seven {
+    float: left;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 150%;
-    float: left;
+    left: 75%;
     position: fixed;
     top: 26%;
-    left: 75%;
+
 }
 
 .eight {
+    float: left;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 150%;
-    float: left;
+    left: 79%;
     position: fixed;
     top: 26%;
-    left: 79%;
 }
 
 .nine {
+    float: left;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 150%;
-    float: left;
+    left: 83%;
     position: fixed;
     top: 26%;
-    left: 83%;
 }
 
 p.sizetitle {
-    position: fixed;
-    top: 22%;
-    left: 60%;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 160%;
+    left: 60%;
+    position: fixed;
+    top: 22%;
 }
 
 /* Color Picker */
@@ -329,77 +331,77 @@ p.sizetitle {
 }
 
 p.colortitle {
+    left: 60%;
     position: fixed;
     top: 32%;
-    left: 60%;
 }
 
 .after {
-    position: fixed;
-    top: 32.5%;
     left: 71%;
     margin: 2% 0;
+    position: fixed;
+    top: 32.5%;
 }
 
 .haze {
-    position: fixed;
-    top: 42.5%;
     left: 71%;
     margin: 2% 0;
+    position: fixed;
+    top: 42.5%;
 }
 
 .cozydenim {
-    position: fixed;
-    top: 52.5%;
     left: 71%;
     margin: 2% 0;
+    position: fixed;
+    top: 52.5%;
 }
 
 .day {
-    position: fixed;
-    top: 62.5%;
     left: 71%;
     margin: 2% 0;
+    position: fixed;
+    top: 62.5%;
 }
 
 .afterschool {
     background-color: deeppink;
+    border-radius: 50%;
+    left: 67%;
+    height: 5%;
     position: fixed;
     top: 37%;
-    left: 67%;
     width: 2.5%;
-    height: 5%;
-    border-radius: 50%;
 }
 
 .morning {
     background-color: yellow;
+    border-radius: 50%;
+    left: 67%;
+    height: 5%;
     position: fixed;
     top: 47%;
-    left: 67%;
     width: 2.5%;
-    height: 5%;
-    border-radius: 50%;
 }
 
 .cozy {
     background-color: darkblue;
+    border-radius: 50%;
+    height: 5%;
+    left: 67%;
     position: fixed;
     top: 57%;
-    left: 67%;
     width: 2.5%;
-    height: 5%;
-    border-radius: 50%;
 }
 
 .rainy {
     background-color: lightcyan;
+    border-radius: 50%;
+    height: 5%;
+    left: 67%;
     position: fixed;
     top: 67%;
-    left: 67%;
     width: 2.5%;
-    height: 5%;
-    border-radius: 50%;
 }
 
 /* Dropdown button */
@@ -410,44 +412,44 @@ p.colortitle {
 }
 
 .filltitle {
+    left: 60%;
     position: fixed;
     top: 73%;
-    left: 60%;
 }
 
 .dropbtn {
     background-color: lightgrey;
-    color: black;
-    width: 30%;
-    height: 6%;
-    font-size: 100%;
     border: none;
+    color: black;
     font-family: "Bodoni 72 Smallcaps";
+    font-size: 100%;
+    height: 6%;
+    left: 67%;
     position: fixed;
     top: 77%;
-    left: 67%;
+    width: 30%;
 }
 
 .dropdown {
-    position: fixed;
     display: inline-block;
+    position: fixed;
 }
 
 .dropdown-content {
+    background-color: lightgrey;
     display: none;
+    left: 67%;
+    min-width: 30%;
     position: fixed;
     top: 83%;
-    left: 67%;
-    background-color: lightgrey;
-    min-width: 30%;
     z-index: 1;
 }
 
 .dropdown-content a {
     color: black;
+    display: block;
     padding: 2% 3%;
     text-decoration: none;
-    display: block;
 }
 
 .dropdown-content a:hover {
@@ -465,16 +467,16 @@ p.colortitle {
 /* Floor Pouf Product Detail Page */
 
 .pouf {
-    position: fixed;
-    top: 120%;
-    left: 20%;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 325%;
+    left: 20%;
+    position: fixed;
+    top: 120%;
 }
 
 .pillow {
+    left: 10%;
     position: fixed;
     top: 27%;
-    left: 10%;
 }
 
