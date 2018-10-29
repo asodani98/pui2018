@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="index.css" type="text/css" rel="stylesheet">
-    <title>Couch Pillow - Fluff Stuff</title>
+    <title>Round Pillow - Fluff Stuff</title>
 </head>
 <body>
     <div class="topnav">
@@ -16,27 +16,26 @@
                     <li class="cart"><a href="./cart.html">CART<img alt="Shopping Cart Icon" src="https://i.imgur.com/z2tdFKB.png" width="19" height="19"/></a></li>
             </ul>
     </div>
-    <div class="picture">
-            <h1 class="pillowtitle">Couch Pillow</h1>
-            <img class="active" alt="Denim Blue Couch Pillow" id="couchpillow" src="https://mbtskoudsalg.com/images/blue-pillow-png-2.png"/>
+    <div>
+            <h1 class="pillowtitle">Round Pillow</h1>
+            <img class="active" alt="Denim Blue Round Pillow" id=roundpillow src="https://i.imgur.com/C8zMMFX.png" width="25%" height="50%"/>
     </div>
 
     <!-- Size Picker -->
     <div>
             <p class="sizetitle">Size:</p>
-            <button id="five" onclick= "changeSize(5)">5 in.</button>
-            <button id="seven" onclick= "changeSize(7)">7 in.</button>
-            <button id="nine" onclick= "changeSize(9)">9 in.</button>
+            <button id="five">5 in.</button>
+            <button id="seven">7 in.</button>
+            <button id="nine">9 in.</button>
     </div>
 
     <!-- Color Picker -->
     <div class="colorbtn">
-            <button id = afterschool onclick= "changeImage('afterschool')"></button> <br/>
-            <button id = morning onclick="changeImage('morning')"></button> <br/>
-            <button id = cozy onclick="changeImage('cozydenim')"></button> <br/>
-            <button id = rainy onclick="changeImage('rainyday')"></button>
+            <button id = afterschool onclick= "rafterschool()"></button> <br/>
+            <button id = morning onclick="rmorning()"></button> <br/>
+            <button id = cozy onclick="rcozy()"></button> <br/>
+            <button id = rainy onclick="rrainday()"></button>
     </div>
-
     <div class="color">
             <p class="colortitle">Color:</p>
             <ul>
@@ -50,8 +49,8 @@
     <!-- Fill Dropdown -->
     <p class="filltitle">Fill:</p>
     <div class="dropdown">
-            <label for="fillselect"></label><select id="fillselect" onchange="fillChanged()">
-                <option id="duck" selected="selected" value="duckdown">DUCK DOWN</option>
+            <label for="fillselect"></label><select id="fillselect">
+                <option id="duck" value="duckdown">DUCK DOWN</option>
                 <option id="polyblend" value="hypoallergenic polyblend">HYPOALLERGENIC POLY-BLEND</option>
                 <option id="memory" value="memory foam">MEMORY FOAM</option>
             </select>
@@ -59,12 +58,12 @@
 
     <!-- Quantity of Items -->
     <p id="quantitytitle">Quantity:</p>
-    <label for="quantity"></label><input oninput="quantity()" id= "quantity" type="number" value="1" min="0">
+    <label for=quantity></label><input id= quantity type="number" value="1" min="0">""</input>
 
     <!-- Add to Cart -->
     <div class="addto">
-            <button id="addtocart" onclick="addToCart(); itemnum()">ADD TO CART</button>
-</div>
+            <button id="addtocart">ADD TO CART</button>
+    </div>
     <script src="intproduct.js" type="text/javascript"></script>
 </body>
 </html>
