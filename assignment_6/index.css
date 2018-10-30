@@ -1,7 +1,7 @@
 /* Background Image */
 body {
     background-color: #C8BFBF;
-    overflow: scroll;
+    overflow-y: scroll;
     margin: 0;
 }
 
@@ -503,21 +503,16 @@ p.colortitle {
     margin-right: 50%;
 }
 
-.buyproduct {
-    left: 5%;
-    top: 52%;
+#product {
     position: fixed;
+    top: 55%;
+    left: 8%;
+    align-content: center;
+    text-align: center;
+    overflow-y: scroll;
 }
 
-.description {
-    font-family: "Bodoni 72";
-    font-size: 125%;
-    position: fixed;
-    top: 56.5%;
-    left: 25%;
-}
-
-.delete {
+#delete {
     background-color: #C8BFBF;
     border: 3px solid black;
     border-color: black;
@@ -525,10 +520,10 @@ p.colortitle {
     font-family: "Bodoni 72 Smallcaps";
     font-size: 80%;
     height: 6%;
-    left: 5.5%;
+    left: 25%;
     position: fixed;
-    top: 87%;
-    width: 15%;
+    top: 60%;
+    width: 10%;
     height: 6.5%;
 }
 
@@ -540,10 +535,10 @@ p.colortitle {
     font-family: "Bodoni 72 Smallcaps";
     font-size: 80%;
     height: 6%;
-    left: 24%;
+    left: 25%;
     position: fixed;
-    top: 87%;
-    width: 15%;
+    top: 70%;
+    width: 10%;
     height: 6.5%;
 }
 

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link href="index.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="intcart.js" type="text/javascript"></script>
     <title>Cart</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <div class="topnav">
@@ -26,29 +29,12 @@
     <form action="#LOGIN">
                     <button class="signin">SIGN IN</button>
                 </form>
-    <h3 onload="cart_getItemsNum()" id="itemnum">1</h3>
+    <h3 id="itemnum">NONE</h3>
     <hr class="leftline">
     </div>
 
     <!-- Product we are buying + details -->
-    <a class = buyproduct onload="showcart()">
-        <img id="product1" alt="Denim Blue Couch Pillow" src="https://mbtskoudsalg.com/images/blue-pillow-png-2.png" width="200" height="200"/>
-        </a>
-
-    <div class="description">
-            <ul>
-                <li>Couch Pillow</li> <br/>
-                <li>$16.99</li>
-                <li>Size: 7 in.</li>
-                <li>Color: Cozy Denim</li>
-                <li>Fill: Duck Down</li>
-            </ul>
-    <form action="#DELETE">
-            <button class="delete">DELETE</button>
-        </form>
-    <form action="productdetailcouch.html">
-            <button class="edit">EDIT</button>
-        </form>
+    <div id="product">
     </div>
 
     <!-- Cart Summary and Payment Options -->
@@ -77,7 +63,7 @@
     <h6 id="totalnum">$21.43</h6>
 
     <button id="checkout">Proceed to Checkout</button>
-    <script src="intcart.js" type="text/javascript"></script>
+
 </body>
 
 </html>
