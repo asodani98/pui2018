@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link href="index.css" type="text/css" rel="stylesheet">
     <title>Cart</title>
+
+    <!--Load JS files in the header of your html-->
+    <script src="intcart.js" type="text/javascript"></script>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -31,7 +34,9 @@
     </div>
 
     <!-- Product we are buying + details -->
-    <a class = buyproduct onload="showcart()">
+    <!-- I've commented this out to show you how it could work -->
+    <!--<a class="buyproduct" onload="showcart()">-->
+    <a class="buyproduct">
         <img id="product1" alt="Denim Blue Couch Pillow" src="https://mbtskoudsalg.com/images/blue-pillow-png-2.png" width="200" height="200"/>
         </a>
 
@@ -77,7 +82,7 @@
     <h6 id="totalnum">$21.43</h6>
 
     <button id="checkout">Proceed to Checkout</button>
-    <script src="intcart.js" type="text/javascript"></script>
+
 </body>
 
 </html>
