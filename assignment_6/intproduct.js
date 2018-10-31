@@ -6,11 +6,11 @@ var pillow;
 var cartString;
 
 function init() {
-    if(!localStorage.getItem("cart")) {
+    if(localStorage.getItem("cart") === null) {
         cart = [];
-        localStorage.setItem("cart", JSON.stringify(cart));
+        localStorage.setItem("cart", "[]");
     } else {
-        cart = JSON.parse(localStorage.getItem("cart"));
+        cart = JSON.parse(localStorage.getItem('cart'));
     }
 }
 
@@ -33,6 +33,7 @@ var colorImages = {
 
  function changeImage(color) {
      document.getElementById("couchpillow").src = colorImages[color];
+     currentcouch.image = colorImages[color];
      currentcouch.color = color;
  }
 
@@ -49,18 +50,18 @@ window.onload = function() {
         price: 16.00,
         productname: 'Couch Pillow',
         color: 'cozydenim',
-        size: '9',
+        size: 9,
         fill: 'duckdown',
         quantity: '1',
+        image: colorImages.cozydenim,
     };
+    init();
 };
 
-init();
-
-
 function addToCart() {
+    init();
     cart.push(currentcouch);
     //move to local storage
     cartString = JSON.stringify(cart);
-    localStorage.setItem('cart', cartString);
+    localStorage.setItem("cart", cartString);
 }

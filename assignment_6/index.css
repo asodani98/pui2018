@@ -5,24 +5,10 @@ body {
     margin: 0;
 }
 
-.parent {
-    left: 0;
+.backgroundimg {
+    left: 22.5%;
     position: relative;
-    top: 0;
-}
-
-.pinkpillow {
-    left: 0;
-    position: relative;
-    padding-top: 5%;
-    padding-left: 20%;
-    top: 0;
-}
-
-.bluepillow {
-    left: 60%;
-    position: absolute;
-    top: 35%;
+    top: 500%;
 }
 
 /* Styling top navigation bar of the home page */
@@ -32,8 +18,8 @@ body {
     height: 8%;
     left: 0;
     overflow: hidden;
-    position: fixed;
-    top: 5%;
+    position: relative;
+    top: 20px;
     width: 100%;
 }
 
@@ -55,9 +41,9 @@ ul {
 
 /* Create gap in the nav bar */
 .cart {
-    left: 91%;
-    position: fixed;
-    top: 5%;
+    left: 415px;
+    position: relative;
+    top: 1px;
     width: 85%;
 }
 
@@ -458,8 +444,8 @@ p.colortitle {
     font-family: "Bodoni 72 Smallcaps";
     font-size: 215%;
     left: 5%;
-    top: 17%;
-    position: fixed;
+    top: 15px;
+    position: relative;
 }
 
 .h2cart {
@@ -467,20 +453,18 @@ p.colortitle {
     font-size: 125%;
     left: 5%;
     top: 25%;
-    position: fixed;
+    position: relative;
 }
 
 .signin {
     background-color: #C8BFBF;
     border: 3px solid black;
-    border-color: black;
     color: black;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 100%;
-    height: 6%;
     left: 40%;
-    position: fixed;
-    top: 24%;
+    position: relative;
+    top: -35px;
     width: 10%;
     height: 6.5%;
 }
@@ -489,55 +473,43 @@ p.colortitle {
     font-family: "Bodoni 72";
     font-size: 125%;
     left: 5%;
-    top: 38%;
-    position: fixed;
+    top: -20px;
+    position: relative;
 }
 
 .leftline {
     display: block;
     border: 2px solid black;
     color: black;
-    margin-top: 22.5%;
+    margin-top: -25px;
     margin-bottom: 0;
     margin-left: 4.5%;
     margin-right: 50%;
 }
 
 #product {
-    position: fixed;
-    top: 55%;
-    left: 8%;
+    position: relative;
+    top: 15px;
+    left: -25%;
     align-content: center;
     text-align: center;
     overflow-y: scroll;
 }
 
-#delete {
+.delete {
     background-color: #C8BFBF;
-    border: 3px solid black;
-    border-color: black;
+    border: 2px solid black;
     color: black;
-    font-family: "Bodoni 72 Smallcaps";
     font-size: 80%;
-    height: 6%;
-    left: 25%;
-    position: fixed;
-    top: 60%;
     width: 10%;
     height: 6.5%;
 }
 
 .edit {
     background-color: #C8BFBF;
-    border: 3px solid black;
-    border-color: black;
+    border: 2px solid black;
     color: black;
-    font-family: "Bodoni 72 Smallcaps";
     font-size: 80%;
-    height: 6%;
-    left: 25%;
-    position: fixed;
-    top: 70%;
     width: 10%;
     height: 6.5%;
 }
@@ -570,7 +542,6 @@ p.colortitle {
     color: black;
     font-family: "Bodoni 72 Smallcaps";
     font-size: 135%;
-    height: 6%;
     left: 70%;
     position: fixed;
     top: 80%;
@@ -582,10 +553,10 @@ p.colortitle {
     display: block;
     border: 2px solid black;
     color: black;
-    margin-top: -7.5%;
-    margin-bottom: 0;
-    margin-left: 70%;
-    margin-right: 1%;
+    width: 27%;
+    top: 190px;
+    left: 900px;
+    position: fixed;
 }
 
 .expenses {
@@ -618,20 +589,20 @@ li.expense {
     display: block;
     border: 1px solid black;
     color: black;
-    margin-top: 17%;
-    margin-bottom: 0;
-    margin-left: 70%;
-    margin-right: 1%;
+    width: 27%;
+    top: 395px;
+    left: 900px;
+    position: fixed;
 }
 
 .twodouble {
-      display: block;
-      border: 1px solid black;
-      color: black;
-      margin-top: 1%;
-      margin-bottom: 0;
-      margin-left: 70%;
-      margin-right: 1%;
+    display: block;
+    border: 1px solid black;
+    color: black;
+    width: 27%;
+    top: 410px;
+    left: 900px;
+    position: fixed;
 }
 
 .total {

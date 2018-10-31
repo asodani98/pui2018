@@ -4,14 +4,14 @@ var number;
 var fill;
 var pillow;
 var cartString;
-var image;
+var newString;
 
 function init() {
-    if(localStorage.getItem["cart"] === null) {
+    if(localStorage.getItem("cart") === null) {
         cart = [];
         localStorage.setItem("cart", "[]");
     } else {
-        cart = JSON.parse(localStorage.getItem("cart"));
+        cart = JSON.parse(localStorage.getItem('cart'));
     }
 }
 
@@ -53,10 +53,16 @@ function addToCart() {
 }
 
 function itemnum () {
+    // cart.forEach(function (item,i) {
+    //     var total = item[i]["quantity"];
+    //     document.getElementById("itemnum").innerTEXT = "Number of Items:"+" "+total;
+    // });total
     document.getElementById("itemnum").innerText = "Number of Items:"+" "+cart.length;
 }
 
 window.onload = function() {
+    init();
+    displayCart();
     currentcouch = {
         price: 16.00,
         productname: 'Couch Pillow',
@@ -67,38 +73,32 @@ window.onload = function() {
         image: colorImages.cozydenim,
     };
     init();
+    displayCart();
     itemnum();
+};
 
+function displayCart() {
+    $("#product").empty();
     cart.forEach(function (item, i) {
-        var newelementHTML = "<div id='description'>" + "<a>" + "<img id='pillowd'/>" + currentcouch.image + "</a>" + "<ul class='description'>" + "<li id='typed'>"
-            + "Couch Pillow" + "</li>" + "<li id='ppud'>" + "$16.00" + "</li>" + "<li id='sized'>Size:" + " " + currentcouch.size
-            + "</li>" + "<li id='colord'>Color:" + " " + currentcouch.color + "</li>" + "<li id='filld'>Fill:" + " "
-            + currentcouch.fill + "</li>" + "</ul>" + "<div id='buttons'>" + "<button id='delete'>DELETE" + "</button>" + "<form action='productdetailcouch.html'>"
-            + "<button class='edit'>EDIT" + "</button>" + "</form>" + "</div>";
+        var newelementHTML = "<div id='overall'" + "<div id='description'>" + "<img id='pillowd' src='" + item.image + "' width='100' height='100'/></a>" + "<ul class='description'>" + "<li id='typed'>"
+            + "Couch Pillow" + "</li>" + "<li id='ppud'>" + "$16.00" + "</li>" + "<li id='sized'>Size:" + " " + item.size
+            + "</li>" + "<li id='colord'>Color:" + " " + item.color + "</li>" + "<li id='filld'>Fill:" + " "
+            + item.fill + "</li>" + "<li id='quantityd'>Quantity:" + " "
+            + item.quantity + "</li>" + "</ul>" + "<div id='buttons'>"+"<button class='delete' data-size='"+item.size+"' data-color='"+item.color+"'data-fill='"+item.fill+"'data-quantity='"+item.quantity+"'onclick='removeCartItem(this,"+ i +")'>DELETE"+"</button>" + "<form action='productdetailcouch.html'>"
+            + "<button class='edit'>EDIT" + "</button>" + "</form>" + "</div>" + "</div>";
         var node = $(newelementHTML);
         $("#product").append(node);
+        itemnum();
     });
 }
 
+function removeCartItem(elem,index) {
+    //loop through cart, check if item has all same variables, then remove it
+            cart.splice(index,1);
+            displayCart();
+            //save new cart with removed element
+            newString = JSON.stringify(cart);
+            localStorage.setItem("cart", newString);
 
-// <div id="product">
-//     <div id="description">
-//     <a>
-//     <img id = "pillowd" alt="Denim Blue Couch Pillow" src="https://mbtskoudsalg.com/images/blue-pillow-png-2.png" width="100" height="100"/>
-//     </a>
-//     <ul class="description">
-//     <li id = "typed"> Couch Pillow </li>
-// <li id = "ppud"> $16.00 </li>
-// <li id = "sized"> Size: 7 in. </li>
-// <li id = "colord"> Color: Cozy Denim </li>
-// <li id = "filld"> Fill: Duck Down </li>
-// </ul>
-// </div>
-// <div id = buttons>
-//     <button>DELETE</button>
-//     <form action="productdetailcouch.html">
-//     <button>EDIT</button>
-//     </form>
-//     </div>
-//     // </div>
+    }
 
