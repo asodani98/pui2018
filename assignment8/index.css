@@ -1,0 +1,684 @@
+body {
+    background-color: darkcyan;
+}
+
+/* Side Navigation */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 75px;
+    transition: 0.5s;
+    text-align: center;
+    font-family: Palatino, serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.open {
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 50px;
+}
+
+/* Home Page Styling */
+
+.mainbackground {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: Palatino, serif;
+    font-size: 100px;
+}
+
+#go {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 15%;
+    line-height: 15%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 7.5%;
+    top: 415px;
+    left: 425px;
+}
+
+#stop {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 15%;
+    line-height: 15%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 7.5%;
+    top: 415px;
+    left: 550px;
+}
+
+#back {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 15%;
+    line-height: 15%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 7.5%;
+    top: 415px;
+    left: 675px;
+}
+
+#plane {
+    position: absolute;
+    left: 0;
+    top: 470px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+/* Map Page */
+
+.map {
+    height: 75%;
+    width: 75%;
+    margin-left: 155px;
+    margin-top: 60px;
+    z-index: -1;
+    position: absolute;
+}
+
+.indiacontent {
+    background: #de9a44;
+    width: 80px;
+    height: 40px;
+    display: none;
+    float: right;
+    margin-top: 400px;
+}
+
+.indiapin {
+    height: 5%;
+    width: 5%;
+    position: relative;
+    top: 200px;
+    left: 800px;
+    z-index: -1;
+}
+
+.englandapin {
+    height: 5%;
+    width: 5%;
+    position: relative;
+    top: 90px;
+    left: 424px;
+    z-index: -1;
+}
+
+.thailandpin {
+    height: 5%;
+    width: 5%;
+    position: relative;
+    top: 240px;
+    left: 810px;
+    z-index: -1;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.rightarrow {
+    height: 6%;
+    width: 2%;
+    position: absolute;
+    top: 300px;
+    left: 1150px;
+    z-index: -1;
+}
+
+.leftarrow {
+    height: 6%;
+    width: 2%;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    z-index: -1;
+}
+
+/* India Home Page */
+.countrytitle {
+    font-family: Charter, serif;
+    font-size: 50px;
+    position: absolute;
+    left: 675px;
+    top: 425px;
+    z-index: -1;
+    color: white;
+}
+
+.indiamap {
+    z-index: -1;
+    height: 90%;
+    width: 35%;
+    position: absolute;
+    top: 40px;
+    left: 440px;
+}
+
+.explore {
+    position: absolute;
+    font-family: Palatino,Serif;
+    font-size: 18px;
+    left: 675px;
+    top: 495px;
+    color: white;
+}
+
+.compass {
+    position: absolute;
+    height: 7%;
+    width: 3.25%;
+    top: 480px;
+    left: 965px;
+}
+
+.fastfacts {
+    position: absolute;
+    top: 70px;
+    left: 255px;
+    font-family: Palatino, serif;
+    font-size: 20px;
+}
+
+.factsone {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 11.5%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 5.5%;
+    top: 115px;
+    left: 260px;
+    z-index: -1;
+}
+
+.factstwo {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 11.5%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 5.5%;
+    top: 200px;
+    left: 260px;
+    z-index: -1;
+}
+
+.factsthree {
+    background: lightgrey;
+    border-radius: 50%;
+    display: block;
+    font-family: "Bodoni 72 Smallcaps", serif;
+    font-size: 140%;
+    height: 11.5%;
+    opacity: 0.75;
+    position: absolute;
+    transition-duration: 0.4s;
+    width: 5.5%;
+    top: 285px;
+    left: 260px;
+    z-index: -1;
+}
+
+#facts1 {
+    position: absolute;
+    top: 140px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#facts2 {
+    position: absolute;
+    top: 225px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#facts3 {
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* More India */
+.back {
+    height: 2.5%;
+    width: 2.5%;
+    color: white;
+    position: relative;
+}
+
+.linkback {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-family: Palatino,Serif;
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+.container1 {
+    position: relative;
+    width: 50%;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 600px;
+    top: 0;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 100%;
+    left: 600px;
+    top: 0;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, Serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+}
+
+.image2 {
+    width: 75%;
+    height: auto;
+    position: relative;
+    left: 85px;
+    top: -100px;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 85px;
+    top: -100px;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 75%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, Serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.container3 {
+    position: relative;
+    width: 50%;
+}
+
+.image3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 600px;
+    top: -150px;
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 100%;
+    left: 600px;
+    top: -150px;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, Serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.container4 {
+    position: relative;
+    width: 50%;
+}
+
+.image4 {
+    width: 75%;
+    height: auto;
+    position: relative;
+    left: 85px;
+    top: -200px;
+}
+
+.overlay4 {
+    position: absolute;
+    bottom: 100%;
+    left: 85px;
+    top: -200px;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 75%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text4 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, Serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* England Home Page */
+.englandmap {
+    z-index: -1;
+    height: 85%;
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 490px;
+    opacity: 50%;
+}
+
+#efacts1 {
+    position: absolute;
+    top: 140px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#efacts2 {
+    position: absolute;
+    top: 225px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#efacts3 {
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* More England Page */
+.container5 {
+    position: relative;
+    width: 50%;
+}
+
+.image5 {
+    width: 65%;
+    height: auto;
+    position: relative;
+    left: 725px;
+    top: -200px;
+}
+
+.overlay5 {
+    position: absolute;
+    bottom: 100%;
+    left: 725px;
+    top: -200px;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 65%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container5:hover .overlay5 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text5 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* Thailand Home Page */
+.thailandmap {
+    z-index: -1;
+    height: 90%;
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 525px;
+    opacity: 50%;
+}
+
+#tfacts1 {
+    position: absolute;
+    top: 140px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#tfacts2 {
+    position: absolute;
+    top: 225px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+
+#tfacts3 {
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    color: white;
+}
+/*
+.inner {
+    width: 120px;
+    height: 120px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.loner {
+    width: 100px;
+    height: 100px;
+}
+
+.mini {
+    width: 60px;
+    height: 60px;
+}
+
+.red {
+    background-color: #e25555;
+}
+
+.orange {
+    background-color: #ffccaa;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    background-color: #eee;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center {
+    position: relative;
+    margin: 0 auto;
+}
+*/
