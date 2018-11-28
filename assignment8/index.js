@@ -25,6 +25,10 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
+/* Scroll - About Page */
+$("#intro").scroll(function() {
+});
+
 /* Facts Function - India */
 var i = 0;
 var txt = 'India is the largest country in South Asia and where my family is originally from.';

@@ -54,9 +54,10 @@ body {
 /* Home Page Styling */
 
 .mainbackground {
-    position: relative;
+    position: absolute;
     text-align: center;
-    margin-top: 0;
+    top: 150px;
+    left: 235px;
 }
 
 h1 {
@@ -76,8 +77,8 @@ h1 {
     position: absolute;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 415px;
-    left: 425px;
+    top: 350px;
+    left: 450px;
 }
 
 #stop {
@@ -92,8 +93,8 @@ h1 {
     position: absolute;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 415px;
-    left: 550px;
+    top: 350px;
+    left: 575px;
 }
 
 #back {
@@ -108,17 +109,73 @@ h1 {
     position: absolute;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 415px;
-    left: 675px;
+    top: 350px;
+    left: 700px;
 }
 
 #plane {
     position: absolute;
-    left: 0;
-    top: 470px;
+    left: 550px;
+    top: 440px;
     width: 150px;
     height: 150px;
     margin: 5px;
+    animation:
+        nudge 8s linear infinite;
+}
+
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(1200px;0);
+    }
+    80% {
+        transform: translate(-100px,0);
+    }
+}
+
+/* About Page */
+#intro {
+    border: 1px,solid black;
+    width: 800px;
+    height: 200px;
+    overflow: scroll;
+    font-family: Palatino,serif;
+    font-size: 20px;
+    align-content: center;
+    position: absolute;
+    top: 380px;
+    left: 250px;
+    background-color: lightgrey;
+}
+
+.intro {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.profile {
+    width: 50%;
+    height: 85%;
+    top: 40px;
+    left: 325px;
+    position: absolute;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#555;
 }
 
 /* Map Page */
