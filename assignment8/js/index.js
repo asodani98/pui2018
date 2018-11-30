@@ -25,6 +25,52 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
+// Initialize and add the map
+function initMap() {
+    var myLatLng = {lat: 9.53567, lng: 99.93567};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+    });
+}
+
+function initMap2() {
+    var myLatLng = {lat: 19.07283, lng: 72.88261};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+    });
+}
+
+function initMap3() {
+    var myLatLng = {lat: 51.50853, lng: -0.12574};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+    });
+}
+
 /* Scroll - About Page */
 $("#intro").scroll(function() {
 });
@@ -131,16 +177,6 @@ function tfast3writer() {
         c++;
         setTimeout(tfast3writer, speed);
     }
-}
-
-function initMap() {
-    // The location of Uluru
-    var uluru = {lat: -25.344, lng: 131.036};
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 4, center: uluru});
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({position: uluru, map: map});
 }
 
 /*$("#toggleSmooth").on("click", function() {

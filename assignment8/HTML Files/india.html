@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Travel Diary - India</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
           <!-- Bootstrap, jQuery scripts -->
@@ -11,48 +11,57 @@
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
           <!-- Stylesheets -->
-          <link rel="stylesheet" type="text/css" href="index.css">
+          <link rel="stylesheet" type="text/css" href="../CSS/index.css">
 </head>
 <body>
 
     <div class="container-fluid">
+        <!-- Side Navigation -->
         <div>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn"
                     onclick="closeNav()">&times;</a>
-                    <a href="index.html">Home</a>
+                    <a href="../index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="map.html">Map</a>
                     <a href="india.html">India</a>
                     <a href="thailand.html">Thailand</a>
                     <a href="england.html">England</a>
             </div>
-
             <span class="open" onclick="openNav()">&#9776;</span>
         </div>
 
-      <img class="map" src="http://www.pngmart.com/files/3/World-Map-PNG-Photos.png" alt="World Map"/>
-            <div id="slidingDown">
-            <a href="interactivemap.html">
-                <img class="indiapin" src="https://www.oldjet.co.uk/wp-content/uploads/2015/06/pin-png-25-300x300.png" alt="Red Location Pin"/>
+        <img class="indiamap" alt="Blue Indian Map" src="../Images/indiamap.png"/>
+        <a href="thailand.html">
+            <img class="rightarrow" src="../Images/rightarrow.png" alt="grey side arrow"/>
             </a>
-            <a href="#">
-                <img class="thailandpin" src="https://www.oldjet.co.uk/wp-content/uploads/2015/06/pin-png-25-300x300.png" alt="Red Location Pin"/>
+            <a href="map.html">
+            <img class="leftarrow" src="../Images/leftarrow.png" alt="grey side arrow"/>
             </a>
-            <a href="#">
-                <img class="englandapin" src="https://www.oldjet.co.uk/wp-content/uploads/2015/06/pin-png-25-300x300.png" alt="Red Location Pin"/>
-            </a>
-            </div>
-            <a href="india.html">
-                <img class="rightarrow" src="http://pluspng.com/img-png/right-arrow-png-right-arrow-gray-clip-art-at-clker-com-vector-clip-art-online-royalty-free-public-domain-378.png" alt="grey side arrow"/>
-            </a>
-            <a href="england.html">
-                <img class="leftarrow" src="https://www.accenture.com/Content/images/left_arrow.png" alt="grey side arrow"/>
-            </a>
-        </div>
+
+        <p class="countrytitle">INDIA</p>
+
+        <p class="fastfacts">Fast Facts!</p>
+
+        <div id="facts1"></div>
+        <button class="factsone" onclick="fast1Writer()">One</button>
+
+        <div id="facts2"></div>
+        <button class="factstwo" onclick="fast2writer()">Two</button>
+
+        <div id="facts3"></div>
+        <button class="factsthree" onclick="fast3writer()">Three</button>
+
+        <p class="explore">Click the compass to explore more!</p>
+
+        <a href="moreindia.html">
+            <img class="compass" src="../Images/explore.png" alt="Explore Icon"/>
+        </a>
+
+    </div>
 
     <!-- JS -->
-    <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="../js/index.js"></script>
 
 </body>
 </html>

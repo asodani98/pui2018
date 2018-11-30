@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Travel Diary - Koh Samui</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <!-- Bootstrap, jQuery scripts -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+            <!-- Stylesheets -->
+            <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div>
+            <!-- Button pack to main map -->
+            <a class="linkback" href="map.html"><img src="../Images/backbutton.png" alt="back button" class="back">
+                Back to Main Map
+            </a>
+
+            <!-- Title of Map -->
+            <p class="location">London, England</p>
+
+            <!--The div element for the map -->
+            <div id="map"></div>
+
+            <!-- Google Map API Link -->
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-d-ni2goGpdQRunQgUYDCxtqorTZP7c&callback=initMap3">
+            </script>
+
+
+        </div>
+    </div>
+
+    <!-- JS -->
+        <script type="text/javascript" src="../js/index.js"></script>
+
+</body>
+</html>

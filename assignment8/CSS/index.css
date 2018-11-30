@@ -179,55 +179,49 @@ h1 {
 }
 
 /* Map Page */
-
 .map {
-    height: 75%;
+    height: auto;
     width: 75%;
     margin-left: 155px;
-    margin-top: 60px;
+    margin-top: 15px;
     z-index: -1;
-    position: absolute;
+    position: fixed;
 }
 
-.indiacontent {
-    background: #de9a44;
-    width: 80px;
-    height: 40px;
-    display: none;
-    float: right;
-    margin-top: 400px;
+.locationpin {
+    font-family: "Apple Chancery", serif;
+    font-size: 25px;
+    z-index: -1;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
 }
 
 .indiapin {
-    height: 5%;
+    height: auto;
     width: 5%;
-    position: relative;
-    top: 200px;
+    position: fixed;
+    top: 275px;
     left: 800px;
     z-index: -1;
 }
 
 .englandapin {
-    height: 5%;
+    height: auto;
     width: 5%;
-    position: relative;
-    top: 90px;
-    left: 424px;
+    position: fixed;
+    top: 155px;
+    left: 570px;
     z-index: -1;
 }
 
 .thailandpin {
-    height: 5%;
+    height: auto;
     width: 5%;
-    position: relative;
-    top: 240px;
-    left: 810px;
+    position: fixed;
+    top: 305px;
+    left: 890px;
     z-index: -1;
-}
-
-#map {
-    height: 400px;
-    width: 100%;
 }
 
 .rightarrow {
@@ -247,7 +241,23 @@ h1 {
     left: 110px;
     z-index: -1;
 }
+/* Map through pin on main map */
 
+/* Div element that contains the map */
+#map {
+    height: 350px;
+    width: 80%;
+    top: 0;
+    left: 125px;
+}
+
+.location {
+    font-size: 65px;
+    font-family: "Apple Chancery", serif;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
 /* India Home Page */
 .countrytitle {
     font-family: Charter, serif;
@@ -379,8 +389,8 @@ h1 {
 .linkback {
     position: fixed;
     top: 15px;
-    left: 15px;
-    font-family: Palatino,Serif;
+    left: 0;
+    font-family: Palatino, serif;
     font-size: 16px;
     color: white;
     position: relative;
@@ -518,28 +528,73 @@ h1 {
     text-align: left;
 }
 
+.container6 {
+    position: relative;
+    width: 50%;
+}
+
+.image6 {
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 85px;
+    top: -650px;
+}
+
+.overlay6 {
+    position: absolute;
+    bottom: 100%;
+    left: 85px;
+    top: -650px;
+    right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 70%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container6:hover .overlay6 {
+    bottom: 0;
+    height: 100%;
+}
+
+.text6 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
 .container4 {
     position: relative;
     width: 50%;
 }
 
 .image4 {
-    width: 75%;
+    width: 90%;
     height: auto;
     position: relative;
     left: 85px;
     top: -200px;
+    transform: rotate(90deg);
 }
 
 .overlay4 {
     position: absolute;
     bottom: 100%;
-    left: 85px;
-    top: -200px;
+    left: 152px;
+    top: -270px;
     right: 0;
     background-color: slategray;
     overflow: hidden;
-    width: 75%;
+    width: 68%;
     height: 0;
     transition: .5s ease;
 }
@@ -552,7 +607,7 @@ h1 {
 .text4 {
     color: white;
     font-size: 20px;
-    font-family: Palatino, Serif;
+    font-family: Palatino, serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -603,26 +658,27 @@ h1 {
 /* More England Page */
 .container5 {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .image5 {
-    width: 65%;
+    width: 70%;
     height: auto;
     position: relative;
-    left: 725px;
-    top: -200px;
+    left: 550px;
+    top: -100px;
+    transform: rotate(90deg);
 }
 
 .overlay5 {
     position: absolute;
     bottom: 100%;
-    left: 725px;
-    top: -200px;
+    left: 636px;
+    top: -187px;
     right: 0;
     background-color: slategray;
     overflow: hidden;
-    width: 65%;
+    width: 52.6%;
     height: 0;
     transition: .5s ease;
 }
@@ -682,60 +738,49 @@ h1 {
     font-size: 18px;
     color: white;
 }
-/*
-.inner {
-    width: 120px;
-    height: 120px;
-}
 
-.center {
-    margin: 0 auto;
-}
+/* More Thailand Page */
 
-.loner {
-    width: 100px;
-    height: 100px;
-}
-
-.mini {
-    width: 60px;
-    height: 60px;
-}
-
-.red {
-    background-color: #e25555;
-}
-
-.orange {
-    background-color: #ffccaa;
-}
-
-.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.relative {
+.container7 {
     position: relative;
-    top: 10px;
-    left: 10px;
+    width: 60%;
 }
 
-.absolute {
+.image7 {
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: 85px;
+    top: -350px;
+}
+
+.overlay7 {
     position: absolute;
-    bottom: 0;
+    bottom: 100%;
+    left: 85px;
+    top: -350px;
     right: 0;
+    background-color: slategray;
+    overflow: hidden;
+    width: 60%;
+    height: 0;
+    transition: .5s ease;
 }
 
-.container {
-    background-color: #eee;
-    width: 70%;
-    margin: 0 auto;
+.container7:hover .overlay7 {
+    bottom: 0;
+    height: 100%;
 }
 
-.center {
-    position: relative;
-    margin: 0 auto;
+.text7 {
+    color: white;
+    font-size: 20px;
+    font-family: Palatino, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
 }
-*/

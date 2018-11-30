@@ -12,5 +12,7 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="anime" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="d3.v5" level="application" />
+    <orderEntry type="library" name="d3" level="application" />
   </component>
 </module>
