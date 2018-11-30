@@ -423,6 +423,7 @@ h1 {
     right: 0;
     top: 0;
     transition: .5s ease;
+    width: 100%;
 }
 
 .container1:hover .overlay1 {
