@@ -1,30 +1,33 @@
+/* Alphabetical Ordered CSS */
+
 body {
     background-color: darkcyan;
 }
 
 /* Side Navigation */
+/* Reference: https://www.w3schools.com/howto/howto_js_sidenav.asp */
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
+    font-family: Palatino, serif;
+    height: 100%;
+    left: 0;
     overflow-x: hidden;
     padding-top: 75px;
-    transition: 0.5s;
+    position: fixed;
     text-align: center;
-    font-family: Palatino, serif;
+    top: 0;
+    transition: 0.5s;
+    width: 0;
+    z-index: 1;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
     color: #818181;
     display: block;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
     transition: 0.3s;
 }
 
@@ -33,11 +36,11 @@ body {
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
 }
 
 @media screen and (max-height: 450px) {
@@ -46,18 +49,18 @@ body {
 }
 
 .open {
-    font-size: 30px;
     cursor: pointer;
+    font-size: 30px;
     padding-top: 50px;
 }
 
 /* Home Page Styling */
 
 .mainbackground {
+    left: 235px;
     position: absolute;
     text-align: center;
     top: 150px;
-    left: 235px;
 }
 
 h1 {
@@ -72,13 +75,13 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 15%;
+    left: 450px;
     line-height: 15%;
     opacity: 0.75;
     position: absolute;
+    top: 350px;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 350px;
-    left: 450px;
 }
 
 #stop {
@@ -88,13 +91,13 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 15%;
+    left: 575px;
     line-height: 15%;
     opacity: 0.75;
     position: absolute;
+    top: 350px;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 350px;
-    left: 575px;
 }
 
 #back {
@@ -104,24 +107,25 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 15%;
+    left: 700px;
     line-height: 15%;
     opacity: 0.75;
     position: absolute;
+    top: 350px;
     transition-duration: 0.4s;
     width: 7.5%;
-    top: 350px;
-    left: 700px;
+
 }
 
 #plane {
-    position: absolute;
+    animation:
+            nudge 8s linear infinite;
+    height: 150px;
     left: 550px;
+    margin: 5px;
+    position: absolute;
     top: 440px;
     width: 150px;
-    height: 150px;
-    margin: 5px;
-    animation:
-        nudge 8s linear infinite;
 }
 
 @keyframes nudge {
@@ -138,32 +142,32 @@ h1 {
 
 /* About Page */
 #intro {
+    align-content: center;
+    background-color: lightgrey;
     border: 1px,solid black;
-    width: 800px;
-    height: 200px;
-    overflow: scroll;
     font-family: Palatino,serif;
     font-size: 20px;
-    align-content: center;
+    height: 200px;
+    left: 250px;
+    overflow: scroll;
     position: absolute;
     top: 380px;
-    left: 250px;
-    background-color: lightgrey;
+    width: 800px;
 }
 
 .intro {
-    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .profile {
-    width: 50%;
     height: 85%;
-    top: 40px;
     left: 325px;
     position: absolute;
+    top: 40px;
+    width: 50%;
 }
 
 ::-webkit-scrollbar {
@@ -181,64 +185,64 @@ h1 {
 /* Map Page */
 .map {
     height: auto;
-    width: 75%;
     margin-left: 155px;
     margin-top: 15px;
-    z-index: -1;
     position: fixed;
+    width: 75%;
+    z-index: -1;
 }
 
 .locationpin {
+    color: black;
     font-family: "Apple Chancery", serif;
     font-size: 25px;
-    z-index: -1;
     margin-top: 20px;
-    color: black;
     text-align: center;
+    z-index: -1;
 }
 
 .indiapin {
     height: auto;
-    width: 5%;
+    left: 800px;
     position: fixed;
     top: 275px;
-    left: 800px;
+    width: 5%;
     z-index: -1;
 }
 
 .englandapin {
     height: auto;
-    width: 5%;
+    left: 570px;
     position: fixed;
     top: 155px;
-    left: 570px;
+    width: 5%;
     z-index: -1;
 }
 
 .thailandpin {
     height: auto;
-    width: 5%;
+    left: 890px;
     position: fixed;
     top: 305px;
-    left: 890px;
+    width: 5%;
     z-index: -1;
 }
 
 .rightarrow {
     height: 6%;
-    width: 2%;
+    left: 1150px;
     position: absolute;
     top: 300px;
-    left: 1150px;
+    width: 2%;
     z-index: -1;
 }
 
 .leftarrow {
     height: 6%;
-    width: 2%;
+    left: 110px;
     position: absolute;
     top: 300px;
-    left: 110px;
+    width: 2%;
     z-index: -1;
 }
 /* Map through pin on main map */
@@ -246,61 +250,62 @@ h1 {
 /* Div element that contains the map */
 #map {
     height: 350px;
-    width: 80%;
-    top: 0;
     left: 125px;
+    top: 0;
+    width: 80%;
 }
 
 .location {
-    font-size: 65px;
     font-family: "Apple Chancery", serif;
-    text-align: center;
-    margin-top: 45px;
+    font-size: 65px;
     margin-bottom: 25px;
+    margin-top: 45px;
+    text-align: center;
 }
 /* India Home Page */
 .countrytitle {
+    color: white;
     font-family: Charter, serif;
     font-size: 50px;
-    position: absolute;
     left: 675px;
+    position: absolute;
     top: 425px;
     z-index: -1;
-    color: white;
 }
 
 .indiamap {
-    z-index: -1;
     height: 90%;
-    width: 35%;
+    left: 440px;
     position: absolute;
     top: 40px;
-    left: 440px;
+    width: 35%;
+    z-index: -1;
+
 }
 
 .explore {
-    position: absolute;
-    font-family: Palatino,Serif;
+    color: white;
+    font-family: Palatino, serif;
     font-size: 18px;
     left: 675px;
+    position: absolute;
     top: 495px;
-    color: white;
 }
 
 .compass {
-    position: absolute;
     height: 7%;
-    width: 3.25%;
-    top: 480px;
     left: 965px;
+    position: absolute;
+    top: 480px;
+    width: 3.25%;
 }
 
 .fastfacts {
-    position: absolute;
-    top: 70px;
-    left: 255px;
     font-family: Palatino, serif;
     font-size: 20px;
+    left: 255px;
+    position: absolute;
+    top: 70px;
 }
 
 .factsone {
@@ -310,12 +315,12 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 11.5%;
+    left: 260px;
     opacity: 0.75;
     position: absolute;
+    top: 115px;
     transition-duration: 0.4s;
     width: 5.5%;
-    top: 115px;
-    left: 260px;
     z-index: -1;
 }
 
@@ -326,12 +331,12 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 11.5%;
+    left: 260px;
     opacity: 0.75;
     position: absolute;
+    top: 200px;
     transition-duration: 0.4s;
     width: 5.5%;
-    top: 200px;
-    left: 260px;
     z-index: -1;
 }
 
@@ -342,58 +347,57 @@ h1 {
     font-family: "Bodoni 72 Smallcaps", serif;
     font-size: 140%;
     height: 11.5%;
+    left: 260px;
     opacity: 0.75;
     position: absolute;
+    top: 285px;
     transition-duration: 0.4s;
     width: 5.5%;
-    top: 285px;
-    left: 260px;
     z-index: -1;
 }
 
 #facts1 {
-    position: absolute;
-    top: 140px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 140px;
 }
 
 #facts2 {
-    position: absolute;
-    top: 225px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 225px;
 }
 
 #facts3 {
-    position: absolute;
-    top: 310px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 310px;
 }
 
 /* More India */
 .back {
-    height: 2.5%;
-    width: 2.5%;
     color: white;
+    height: 2.5%;
     position: relative;
+    width: 2.5%;
 }
 
 .linkback {
-    position: fixed;
-    top: 15px;
-    left: 0;
+    color: white;
     font-family: Palatino, serif;
     font-size: 16px;
-    color: white;
+    left: 0;
     position: relative;
+    top: 15px;
 }
 
 .container1 {
@@ -402,23 +406,22 @@ h1 {
 }
 
 .image1 {
-    width: 100%;
     height: auto;
-    position: relative;
     left: 600px;
+    position: relative;
     top: 0;
+    width: 100%;
 }
 
 .overlay1 {
-    position: absolute;
-    bottom: 100%;
-    left: 600px;
-    top: 0;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 100%;
+    bottom: 100%;
     height: 0;
+    left: 600px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
     transition: .5s ease;
 }
 
@@ -429,15 +432,15 @@ h1 {
 
 .text1 {
     color: white;
+    font-family: Palatino, serif;
     font-size: 20px;
-    font-family: Palatino, Serif;
-    position: absolute;
-    top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .container2 {
@@ -446,24 +449,24 @@ h1 {
 }
 
 .image2 {
-    width: 75%;
     height: auto;
-    position: relative;
     left: 85px;
+    position: relative;
     top: -100px;
+    width: 75%;
 }
 
 .overlay2 {
-    position: absolute;
-    bottom: 100%;
-    left: 85px;
-    top: -100px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 75%;
+    bottom: 100%;
     height: 0;
+    left: 85px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -100px;
     transition: .5s ease;
+    width: 75%;
 }
 
 .container2:hover .overlay2 {
@@ -473,15 +476,15 @@ h1 {
 
 .text2 {
     color: white;
+    font-family: Palatino, serif;
     font-size: 20px;
-    font-family: Palatino, Serif;
-    position: absolute;
-    top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .container3 {
@@ -490,24 +493,24 @@ h1 {
 }
 
 .image3 {
-    width: 100%;
     height: auto;
-    position: relative;
     left: 600px;
+    position: relative;
     top: -150px;
+    width: 100%;
 }
 
 .overlay3 {
-    position: absolute;
-    bottom: 100%;
-    left: 600px;
-    top: -150px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 100%;
+    bottom: 100%;
     height: 0;
+    left: 600px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -150px;
     transition: .5s ease;
+    width: 100%;
 }
 
 .container3:hover .overlay3 {
@@ -517,15 +520,15 @@ h1 {
 
 .text3 {
     color: white;
+    font-family: Palatino, serif;
     font-size: 20px;
-    font-family: Palatino, Serif;
-    position: absolute;
-    top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .container6 {
@@ -534,24 +537,24 @@ h1 {
 }
 
 .image6 {
-    width: 70%;
     height: auto;
-    position: relative;
     left: 85px;
+    position: relative;
     top: -650px;
+    width: 70%;
 }
 
 .overlay6 {
-    position: absolute;
-    bottom: 100%;
-    left: 85px;
-    top: -650px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 70%;
+    bottom: 100%;
     height: 0;
+    left: 85px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -650px;
     transition: .5s ease;
+    width: 70%;
 }
 
 .container6:hover .overlay6 {
@@ -561,15 +564,15 @@ h1 {
 
 .text6 {
     color: white;
-    font-size: 20px;
     font-family: Palatino, serif;
-    position: absolute;
-    top: 50%;
+    font-size: 20px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .container4 {
@@ -578,25 +581,25 @@ h1 {
 }
 
 .image4 {
-    width: 90%;
     height: auto;
-    position: relative;
     left: 85px;
+    position: relative;
     top: -200px;
     transform: rotate(90deg);
+    width: 90%;
 }
 
 .overlay4 {
-    position: absolute;
-    bottom: 100%;
-    left: 152px;
-    top: -270px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 68%;
+    bottom: 100%;
     height: 0;
+    left: 152px;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: -270px;
     transition: .5s ease;
+    width: 68%;
 }
 
 .container4:hover .overlay4 {
@@ -606,53 +609,53 @@ h1 {
 
 .text4 {
     color: white;
-    font-size: 20px;
     font-family: Palatino, serif;
-    position: absolute;
-    top: 50%;
+    font-size: 20px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 /* England Home Page */
 .englandmap {
-    z-index: -1;
     height: 85%;
-    width: 25%;
-    position: absolute;
-    top: 50px;
     left: 490px;
     opacity: 50%;
+    position: absolute;
+    top: 50px;
+    width: 25%;
+    z-index: -1;
 }
 
 #efacts1 {
-    position: absolute;
-    top: 140px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 140px;
 }
 
 #efacts2 {
-    position: absolute;
-    top: 225px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 225px;
 }
 
 #efacts3 {
-    position: absolute;
-    top: 310px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 310px;
 }
 
 /* More England Page */
@@ -662,25 +665,25 @@ h1 {
 }
 
 .image5 {
-    width: 70%;
     height: auto;
-    position: relative;
     left: 550px;
+    position: relative;
     top: -100px;
     transform: rotate(90deg);
+    width: 70%;
 }
 
 .overlay5 {
-    position: absolute;
-    bottom: 100%;
-    left: 636px;
-    top: -187px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 52.6%;
+    bottom: 100%;
     height: 0;
+    left: 636px;
+    overflow: hidden;
+    position: absolute;
+    top: -187px;
     transition: .5s ease;
+    right: 0;
+    width: 52.6%;
 }
 
 .container5:hover .overlay5 {
@@ -690,53 +693,53 @@ h1 {
 
 .text5 {
     color: white;
-    font-size: 20px;
     font-family: Palatino, serif;
-    position: absolute;
-    top: 50%;
+    font-size: 20px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 /* Thailand Home Page */
 .thailandmap {
-    z-index: -1;
     height: 90%;
-    width: 25%;
-    position: absolute;
-    top: 50px;
     left: 525px;
     opacity: 50%;
+    position: absolute;
+    top: 50px;
+    width: 25%;
+    z-index: -1;
 }
 
 #tfacts1 {
-    position: absolute;
-    top: 140px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 140px;
 }
 
 #tfacts2 {
-    position: absolute;
-    top: 225px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 225px;
 }
 
 #tfacts3 {
-    position: absolute;
-    top: 310px;
-    left: 375px;
+    color: white;
     font-family: Palatino, serif;
     font-size: 18px;
-    color: white;
+    left: 375px;
+    position: absolute;
+    top: 310px;
 }
 
 /* More Thailand Page */
@@ -747,24 +750,24 @@ h1 {
 }
 
 .image7 {
-    width: 60%;
     height: auto;
-    position: relative;
     left: 85px;
+    position: relative;
     top: -350px;
+    width: 60%;
 }
 
 .overlay7 {
-    position: absolute;
-    bottom: 100%;
-    left: 85px;
-    top: -350px;
-    right: 0;
     background-color: slategray;
-    overflow: hidden;
-    width: 60%;
+    bottom: 100%;
     height: 0;
+    left: 85px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -350px;
     transition: .5s ease;
+    width: 60%;
 }
 
 .container7:hover .overlay7 {
@@ -774,13 +777,13 @@ h1 {
 
 .text7 {
     color: white;
-    font-size: 20px;
     font-family: Palatino, serif;
-    position: absolute;
-    top: 50%;
+    font-size: 20px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: left;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }

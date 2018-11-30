@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab44a71a-59ff-4a59-809d-148123366f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML Files/interactivemape.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML Files/interactivemapt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_2294.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_3422.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_3500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_3674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_3684.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_8642.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_8657.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_8836.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_8869.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/IMG_8900.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/backbutton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/englandmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/explore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/indiamap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/leftarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/locationpin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/paneer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/rightarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/tajmahal.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/temple.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/thailandmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/women.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/worldmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/d3/d3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/anime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/anime.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/england.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/england.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/india.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/india.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interactivemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/interactivemap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moreengland.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/moreengland.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moreindia.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/moreindia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/morethailand.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/morethailand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thailand.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/thailand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Files/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Files/england.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/england.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Files/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Files/thailand.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Files/thailand.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +21,7 @@
     <session id="1141641264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -72,8 +33,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JPG" value="13" />
-          <entry key="css" value="13" />
-          <entry key="html" value="40" />
+          <entry key="css" value="15" />
+          <entry key="html" value="66" />
           <entry key="iml" value="1" />
           <entry key="jpg" value="6" />
           <entry key="js" value="20" />
@@ -83,29 +44,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="12" />
+          <entry key="CSS" value="14" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="20" />
           <entry key="JavaScript" value="20" />
           <entry key="Scratch" value="2" />
-          <entry key="Svelte" value="39" />
+          <entry key="Svelte" value="65" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7967" />
-          <entry key="html" value="9961" />
+          <entry key="css" value="8489" />
+          <entry key="html" value="10052" />
           <entry key="js" value="2617" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7967" />
+          <entry key="CSS" value="8489" />
           <entry key="JavaScript" value="2617" />
           <entry key="Scratch" value="18" />
-          <entry key="Svelte" value="9943" />
+          <entry key="Svelte" value="10034" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -116,77 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML Files/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML Files/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML Files/interactivemap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML Files/interactivemape.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML Files/interactivemapt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML Files/moreengland.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -242,20 +137,20 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/thailand.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/HTML Files/england.html" />
         <option value="$PROJECT_DIR$/HTML Files/india.html" />
         <option value="$PROJECT_DIR$/HTML Files/moreengland.html" />
         <option value="$PROJECT_DIR$/HTML Files/moreindia.html" />
         <option value="$PROJECT_DIR$/HTML Files/morethailand.html" />
-        <option value="$PROJECT_DIR$/HTML Files/thailand.html" />
         <option value="$PROJECT_DIR$/interactivemape.html" />
         <option value="$PROJECT_DIR$/HTML Files/interactivemap.html" />
         <option value="$PROJECT_DIR$/HTML Files/interactivemape.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/HTML Files/interactivemapt.html" />
-        <option value="$PROJECT_DIR$/HTML Files/map.html" />
         <option value="$PROJECT_DIR$/CSS/index.css" />
+        <option value="$PROJECT_DIR$/HTML Files/thailand.html" />
+        <option value="$PROJECT_DIR$/HTML Files/england.html" />
         <option value="$PROJECT_DIR$/HTML Files/about.html" />
+        <option value="$PROJECT_DIR$/HTML Files/map.html" />
       </list>
     </option>
   </component>
@@ -324,11 +219,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="HTML Files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="assignment8" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -395,16 +285,15 @@
       <workItem from="1543066585233" duration="22146000" />
       <workItem from="1543198906765" duration="3012000" />
       <workItem from="1543242227172" duration="25032000" />
-      <workItem from="1543512453291" duration="681000" />
+      <workItem from="1543512453291" duration="4833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67780000" />
+    <option name="totallyTimeSpent" value="71932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50473183" side_tool="true" weight="0.18665607" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49526814" visible="true" weight="0.16521049" />
@@ -531,20 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/england.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/india.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/IMG_8900.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -563,13 +438,6 @@
     <entry file="file://$PROJECT_DIR$/Images/IMG_8869.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/moreindia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/IMG_3422.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -582,17 +450,13 @@
     <entry file="file://$PROJECT_DIR$/Images/IMG_3684.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/morethailand.html">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/thailand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="71" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+        <state relative-caret-position="331">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,41 +481,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/HTML Files/morethailand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML Files/moreindia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML Files/moreengland.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/index.css">
+    <entry file="file://$PROJECT_DIR$/HTML Files/thailand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML Files/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML Files/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML Files/india.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML Files/england.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="782" column="23" selection-start-line="782" selection-start-column="23" selection-end-line="782" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML Files/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
